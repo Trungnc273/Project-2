@@ -1,0 +1,81 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  height: 10000px;
+}
+
+/*========================== common ===========================*/
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.main-content {
+  width: 1170px;
+  margin: 0 auto;
+}
+/*========================== header ===========================*/
+
+.header {
+  position: sticky;
+  top: 10px;
+}
+
+.header .header-top {
+  display: flex;
+  margin-top: 52px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.header-top .logo {
+  width: 127px;
+  height: 37px;
+  flex-shrink: 0;
+}
+
+.header-top .menu {
+  display: flex;
+  gap: 39px;
+  margin: 0 auto;
+}
+
+.header .menu .cta {
+  color: #2f3a3b;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.header .menu .cta.action {
+  font-weight: 600;
+}
+
+.header .btn-sign-in {
+  background-color: transparent;
+  color: #494949;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+header .btn-sign-up {
+  width: 108px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+  color: #1ebfc1;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 24px;
+}
