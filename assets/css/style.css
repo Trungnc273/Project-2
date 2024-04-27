@@ -6,7 +6,6 @@ body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  height: 10000px;
 }
 
 /*========================== common ===========================*/
@@ -27,6 +26,7 @@ button:hover {
 
 .main-content {
   width: 1170px;
+  max-width: calc(100% - 48px);
   margin: 0 auto;
 }
 
@@ -52,7 +52,7 @@ h2 {
   align-items: center;
 }
 
-.header-top .logo {
+.logo {
   width: 127px;
   height: 37px;
   flex-shrink: 0;
@@ -64,13 +64,13 @@ h2 {
   margin: 0 auto;
 }
 
-.header .menu .cta {
+.header .menu .top {
   color: #2f3a3b;
   font-size: 1.6rem;
   line-height: normal;
 }
 
-.header .menu .cta.action {
+.header .menu .top.action {
   font-weight: 600;
 }
 
@@ -654,4 +654,81 @@ header .btn-sign-up {
   flex-shrink: 0;
   top: 107px;
   right: 171px;
+}
+
+/*========================== cta ===========================*/
+.cta {
+  margin-top: 130px;
+  background-color: #def6f5;
+}
+.cta .cta-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cta .title {
+  width: 420px;
+  margin-top: 76px;
+}
+.cta .describe {
+  margin-top: 18px;
+  margin-bottom: 88px;
+  width: 397px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: normal;
+}
+.cta .btn {
+  width: 186px;
+  height: 68px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: #2ac9bf;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/*========================== footer ===========================*/
+.footer {
+  margin-top: 131px;
+  margin-bottom: 50px;
+}
+
+.footer .ft-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .ft-body .column .row:first-child {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 26px;
+}
+
+.footer .ft-body .column .row {
+  margin-bottom: 18px;
+}
+
+.footer .ft-body .column .row a {
+  color: #535353;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+.footer .ft-body .column:last-child .row a {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+
+.footer .copyright {
+  margin-top: 62px;
+  text-align: center;
+  color: #b0b5b4;
+  font-size: 1.8rem;
+  line-height: normal;
 }
